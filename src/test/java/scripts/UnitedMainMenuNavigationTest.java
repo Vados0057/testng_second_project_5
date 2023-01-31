@@ -128,7 +128,7 @@ public class UnitedMainMenuNavigationTest extends UnitedBase {
      */
 
     @Test(priority = 5, description = "Validate One-way ticket search results \"from Chicago, IL, US (ORD) to Miami, FL, US (MIA)”")
-    public void validate() {
+    public void validateSearchResult() {
         unitedBasePage.getButton(1).click();
         unitedBasePage.departurePlace.clear();
         unitedBasePage.departurePlace.sendKeys("Chicago, IL, US (ORD)");
